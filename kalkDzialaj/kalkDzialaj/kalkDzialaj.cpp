@@ -3,28 +3,17 @@
 using namespace std;
 
 class cal {
-		bool use = false;
-		double mem;
-		double b;
+	bool use = false;
+	double mem;
+	double b;
 public:
-	
-	
-
-
 	double add();
-
-		double sub();
-
-		double mlt();
-
-		double div();
-
-		double mod();
-
-		void reset();
-		void menu();
-	
-
+	double sub();
+	double mlt();
+	double div();
+	double mod();
+	void reset();
+	void menu();
 };
 
 double cal::add()
@@ -32,7 +21,6 @@ double cal::add()
 	mem += b;
 	return mem;
 }
-
 double cal::sub()
 {
 	mem -= b;
@@ -59,12 +47,10 @@ double cal::div()
 double cal::mod() {
 	return mem - (int)(mem / b) * b;
 }
-
 void cal::reset()
 {
 	use = false;
 }
-
 void cal::menu()
 {
 	int x;
@@ -78,7 +64,6 @@ void cal::menu()
 		cout << "6.RESET" << endl;
 		cout << "WYBIERZ OPERACJE" << endl;
 		cin >> x;
-
 		if (x == 6)
 		{
 			reset();
@@ -89,7 +74,6 @@ void cal::menu()
 			use = false;
 			cout << "PODAJ DRUGA LICZBE (1 Z PAMIECI)" << endl;
 			cin >> b;
-
 		}
 		else
 		{
@@ -121,14 +105,11 @@ void cal::menu()
 			break;
 		}
 	}
-
 }
-
 
 int main()
 {
 	cal k;
-
 	k.menu();
 
 }
