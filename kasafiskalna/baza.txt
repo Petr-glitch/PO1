@@ -1,0 +1,10 @@
+0001^0.7^jablko\n
+0002^0.5^cebula\n
+0003^1.65^pomarancz \n
+0004^2.0^woda\n
+0005^3.50^sok jablkowy\n
+0006^4.00^sok pomaranczowy\n
+0007^1.70^zapalniczka\n
+0008^2.30^zeszyt\n
+0009^0.85^dlugopis\n
+0010^2.33^gumka\n
